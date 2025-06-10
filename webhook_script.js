@@ -31,6 +31,7 @@ class Script {
             case "0":
             case "00":
             case 0:
+                prio_text = "24hr"
                 break;
             case "10":
             case 10:
@@ -38,11 +39,11 @@ class Script {
                 break;
             case "20":
             case 20:
-                prio_text = "1hr"
+                prio_text = "2hr"
                 break;
             case "30":
             case 30:
-                prio_text = "2hr"
+                prio_text = "1hr"
                 break;
             default:
                 prio_text = "Undefined priority"
