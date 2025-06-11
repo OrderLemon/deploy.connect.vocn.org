@@ -29,8 +29,9 @@ class Script {
         let prio_text = ''
         switch (stat) {
             case "0":
-            case "00":
             case 0:
+                break;
+            case "00":
                 prio_text = "24hr"
                 break;
             case "10":
