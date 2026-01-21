@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#react-root>div:not(#rocket-chat){
+  background: var(--vocn-gray-dark) !important;
+}
+
+#sidebar-region .rcx-sidebar-footer>div{
+  display:none;
+}
+
+.rcx-css-14gyq0r .rcx-css-12gps4f{
+  display:none;
+}
+div[data-qa-id="homepage-add-users-card"],
+div[data-qa-id="homepage-create-channels-card"],
+div[data-qa-id="homepage-join-rooms-card"],
+div[data-qa-id="homepage-mobile-apps-card"],
+div[data-qa-id="homepage-desktop-apps-card"],
+div[data-qa-id="homepage-documentation-card"]
+{
+  display: none;
+}
+/*
+:root {
+  --rcx-button-colors-ghost-background-color: #e4e8ec !important;
+  --rcx-status-bullet-online-background-color: #2de0a5 !important;
+}
+
+.rcx-css-5joa46 {
+    display: none !important;
+}
+
+.rcx-css-pv6juw {
+    display: none !important;
+}
+
+.rcx-sidebar-item__subtitle, .rcx-sidebar-item__title {
+
+    color: #3f7fc1 !important;
+}
+.rcx-input-box__wrapper>.rcx-input-box {
+    color: #3f7fc1 !important;
+}
+.rcx-sidebar-item--highlighted, .rcx-sidebar-item__icon--highlighted {
+    color: #f00 !important;
+}
+.rcx-status-bullet--online {
+    background: #2de0a5 !important;
+}
+.title{
+ text-align: center; 
+}
+.rcx-box--full, .rcx-box--full:after, .rcx-box--full:before, .rcx-chip {
+	background-color: #e4e7ec;
+}
+.rcx-check-box {
+	border-color: #9e9e9e !important;
+	border-width: 1px !important;
+	border-radius: 3px !important;
+	border-style: dotted !important;
+}
+.rc-popover__column, .rc-popover__content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	border-radius: 15px;
+	background: #e4e7ec;
+	box-shadow: inset 6px 6px 12px #c2c4c9, inset -6px -6px 12px #ffffff;
+	padding: 31px;
+}
+.rcx-button {
+	padding-block: calc(18px - .625rem);
+	padding-inline: 14px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #eeeff1;
+	background-color: var(--rcx-button-colors-secondary-background-color,var(--rcx-color-neutral-300,#eeeff1));
+	border: 0px solid #eeeff1;
+	border-color: var(--rcx-button-colors-secondary-border-color,var(--rcx-color-neutral-300,#eeeff1));
+	border-radius: 2px;
+	color: #2f343d;
+	color: var(--rcx-button-colors-secondary-color,var(--rcx-color-neutral-800,#2f343d));
+	cursor: pointer;
+	display: inline-block;
+	font-size: .875rem;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 1.25rem;
+	outline: 0;
+	overflow: hidden;
+	padding: calc(18px - .625rem) 14px;
+	text-align: center;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-radius: 150px;
+	background: linear-gradient(
+145deg
+, #f4f7fd, #cdd0d4);
+	box-shadow: 5px 5px 9px #c6c9cd, -5px -5px 9px #ffffff;
+}
+.rcx-button--primary-danger{
+  color: #f5455c !important;
+  border-width:0px !important;
+}
+.rcx-toggle-switch__input+.rcx-toggle-switch__fake {
+	border-style:none;
+	border-radius: 150px;
+	background: #e4e7ec;
+	box-shadow: inset 7px 7px 14px #c6c9cd, inset -7px -7px 14px #ffffff;
+}
+.rcx-check-box__input:checked+.rcx-check-box__fake, .rcx-check-box__input:indeterminate+.rcx-check-box__fake, .rcx-radio-button__input:checked+.rcx-radio-button__fake, .rcx-toggle-switch__input:checked+.rcx-toggle-switch__fake {
+	background-color: #1d74f5;
+	background-color: var(--rcx-button-colors-primary-background-color,var(--rcx-color-primary-500,#1d74f5));
+	border-color: #1d74f5;
+	border-color: var(--rcx-button-colors-primary-border-color,var(--rcx-color-primary-500,#1d74f5));
+	color: #fff;
+	color: var(--rcx-button-colors-primary-color,var(--rcx-color-foreground-alternative,#fff));
+	
+	background: linear-gradient(
+145deg
+, #f4f7fd, #cdd0d4);
+	box-shadow: 5px 5px 10px #cbced2, -5px -5px 10px #fdffff;
+}
+.rcx-toggle-switch__input+.rcx-toggle-switch__fake:before {
+
+	background-color: #8b929a !important;
+}
+.rcx-button--primary{
+  color: #1d74f5 !important;
+  border-width:0px !important;
+}
+.rcx-button--ghost {
+    background-color: #e4e7ec !important;
+  border-color: #276fb9 !important;
+  color: #39a5e6 !important;
+}
+body {
+  font-family: 'Raleway', sans-serif !important;
+  background-color: #e4e8ec !important;
+  color:#141515 !important;
+}
+.content-background-color {
+    background-color: #e4e7ec;
+}
+.rc-message-box{
+    background-color: #e4e7ec;
+}
+.full-page {
+    background-color: #e4e8ec !important;
+  	color:#141515 !important;
+}
+.rc-old.full-page {
+
+    background-color: #e4e8ec !important;
+    color:#141515 !important;
+}
+.rc-old #login-card {
+    padding: 28px;
+    border-radius: 50px;
+    background: #e4e8ec;
+    box-shadow: inset 17px 17px 10px #d2d5d9, inset -17px -17px 10px #f6fbff;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.login-terms{
+  display:none;
+}
+.register__message__XfDRi {
+    display: none !important;
+}
+.rc-button {
+  border-radius: 25px !important;
+}
+input, select, textarea {
+ border-radius: 25px !important;
+  border-color: #ffffff !important;
+}
+.sidebar__footer:not(:empty) {
+    background: #e4e8ec !important;
+}
+.sidebar__footer:not(:empty) a:any-link {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50px;
+    width: 120px;
+}
+.rcx-sidebar {
+    background-color:#e4e8ec !important;
+  padding: 28px;
+    border-radius: 30px;
+    box-shadow: inset 17px 17px 10px #d2d5d9, inset -17px -17px 10px #f6fbff;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.rcx-css-flbevp, .rcx-css-zprnfp {
+    background-color: #e5e7eb !important;
+    background-image: none !important;
+}
+
+.rcx-css-hnrm5g {
+    background-color: rgb(229,231,235) !important;
+}
+
+.rcx-css-pv6juw {
+  display: none !important;
+}
+
+#react-root>div:not(#rocket-chat)>div>div>p {
+	display: none !important;
+}
+
+#react-root > div > div > div:last-child.rcx-box {
+	display: none !important;
+}
+
+img[src$="assets/logo.svg"]{
+    width: 50%;
+ 	max-height: unset !important;
+}
+
+@media only screen and (max-width: 1440px) {
+   #react-root > div > div > div > div > div:has(img[src$="assets/logo.svg"]) {
+	text-align: center;
+}
+}*/
